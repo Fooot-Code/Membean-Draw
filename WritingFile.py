@@ -26,7 +26,7 @@ def load_recognition_model():
 
 def detect_drawing():
     # Initialize camera
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     
     # Create a blank canvas for drawing
     canvas = np.zeros((480, 640, 3), dtype=np.uint8)
